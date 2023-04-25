@@ -1,2 +1,3 @@
 # SringBootWithRestProjDemo
-Springboot With Rest jar file , docker file added
+SpringbootRestDemo jar file , docker file added
+springbootrestdemo jar  file with openjdk docker file base image added
