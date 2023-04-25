@@ -1,4 +1,5 @@
-FROM eclipse-temurin:17-jdk-alpine
-VOLUME /tmp
-COPY *.jar SringBootRest.jar
-ENTRYPOINT ["java","-jar","/SringBootRest.jar"]
+FROM openjdk
+COPY . /usr/src/myapp
+WORKDIR /usr/src/myapp
+EXPOSE 8081
+CMD ["java","-jar","springbootrestdemo.jar"]
